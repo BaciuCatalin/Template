@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+.logo{
+    display: inline-flex;
+    background-color: blue;
+}
+
+.article{
+    margin: 15px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+
+}
+.picture{
+    margin: 15px;
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
