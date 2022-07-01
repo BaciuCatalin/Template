@@ -1,49 +1,39 @@
-/* .navbar-expand-lg { */
-
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* align-items: center;
-  align-content: stretch; */
-  /* justify-content: center;
-  padding: 0 10px 0 10px; */
-  /* margin: 0 10px 0 10px; */
-  /* text-decoration: none;
-  list-style: none;
-  text-align: center;
-  width: 100% !important; */
-/* } */
-
-/* .header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  justify-content: space-between;
+.header {
   padding: 0 10px 0 10px;
-  margin: 0 10px 0 10px;
+  margin: 25px 0px 0 0px;
   text-decoration: none;
   list-style: none;
   text-align: center;
   width: auto;
-} */
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  align-content: center;
+  justify-content: space-between;
+  width: auto;
+}
+
+.nav-item:hover{
+  color:lightslategray;
+}
 
 nav ul li {
-  margin: 0 10px 10px 0px;
+   margin: 0 15px 15px 0;
   background-color: rgb(34, 101, 169);
-  width: auto;
-  padding: 10px;
+  padding: 10px 43px 10px 43px;
   text-transform: uppercase;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "PT Serif", serif;
   cursor: default;
+  width: 15rem ;
 }
 
 .logo {
-  width: 100%;
+  width:auto;
   display: flex;
   align-items: center;
-  padding: 0 32px 0 32px;
+  padding: 0 35px 0 35px;
   font-family: "PT Serif", serif;
 }
 
@@ -57,7 +47,6 @@ nav ul li {
 
 .logo-afther-divider {
   width: 100%;
-  margin-left: 5px;
   display: inline-flex;
   align-content: center;
   align-items: center;
@@ -117,6 +106,18 @@ nav ul li {
   padding: 0 15px 0 15px;
   margin: 0 20px 0 33px;
   cursor: pointer;
+}
+
+.button-link-small{
+  font-size: 12px;
+  background-color:rgb(34, 101, 169);
+  color: white;
+  text-transform: capitalize;
+  padding: 0 15px 0 15px;
+  margin: 0 20px 0 33px;
+  cursor: pointer;
+  white-space: 0;
+  
 }
 
 .div-button {
@@ -251,6 +252,11 @@ nav ul li {
   list-style: none;
 }
 
+.link-right{
+  display: flex;
+  align-content: right;
+}
+
 .img-fluid {
   margin-top: 49px;
   padding: 2px;
@@ -290,3 +296,5 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+
